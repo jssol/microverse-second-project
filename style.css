@@ -147,7 +147,7 @@ body {
 
 #features {
   position: relative;
-  margin-top: 45rem;
+  margin: 50rem 45rem 0 45rem;
   z-index: -1000;
   display: flex;
   flex-direction: column;
