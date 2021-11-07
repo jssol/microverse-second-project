@@ -1,0 +1,197 @@
+:root {
+  --back-color: rgb(239,139,19);
+  --aback-color: rgba(239,139,19,0.8);
+  font-family: Montserrat,Lato,Roboto,sans-serif, arial;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+/* Header Section */
+
+#header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--back-color);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4rem;
+}
+
+#img-container {
+  height: 2.5rem;
+  width: auto;
+  margin-left: 25px;
+}
+
+#header-img {
+  height: 2.5rem;
+  width: auto;
+}
+
+#nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 30%;
+}
+
+#header .nav-link {
+  color: black;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: color .6s ease;
+}
+
+#header .nav-link:hover {
+  color: #FFF;
+  
+}
+
+/* End Header Section */
+
+/* Hero Section */
+
+#hero {
+  height: 18rem;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Ambrose_Akinmusire_2011.jpg/1200px-Ambrose_Akinmusire_2011.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  box-shadow: inset 0 0 0 1000px rgba(255,255,255,0.11);
+  margin-top: 3.5rem;
+  content: '';
+  z-index: -1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  left: 0;
+  right: 0;
+  position: absolute;
+}
+
+#img-title {
+  margin-top: -15px;
+}
+
+#hero hr {
+  width: 70%;
+  height: 2px;
+  border-width: 0;
+  color: white;
+  background-color: white;
+  margin-top: -10px;
+  margin-bottom: 30px;
+}
+
+#hero p {
+  font-size: 1.6rem;
+  margin-top: -10px;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#email {
+  margin-top: -5px;
+  height: 2rem;
+  width: 300px;
+  text-align: center;
+  border: 2px solid #000;
+  border-radius: 4px;
+  font-size: 1.1rem;
+}
+
+#submit {
+  margin-top: 5px;
+  height: 2rem;
+  width: 150px;
+  transition: color .6s ease, background-color .6s ease;
+  background-color: var(--back-color);
+  color: #000;
+  border: 2px solid #000;
+  border-radius: 4px;
+  font-size: 1rem;
+  text-align: center;
+  justify-text: center;
+  margin-top: 10px;
+  font-weight: 700;
+}
+
+#submit:hover {
+  background-color: #000;
+  color: var(--back-color);
+}
+
+/* End Hero Section */
+
+/* Main Section */
+
+#features {
+  position: absolute;
+  margin-top: 25rem;
+  z-index: -1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 20rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 800px;
+}
+
+#icon1 {
+  height: 60px;
+  width: auto;
+  margin-top: 25px;
+}
+
+#icon2 {
+  height: 60px;
+  width: auto;
+  margin-top: 20px;
+}
+
+#icon3 {
+  height: 60px;
+  width: auto;
+  margin-top: 30px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.info p {
+  margin-top: -20px;
+}
+
+#features .fhr {
+  color: #000;
+  background-color: #000;
+  width: 800px;
+  height: 5px;
+  border-width: 0;
+}
