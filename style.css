@@ -194,3 +194,74 @@ body {
   height: 5px;
   border-width: 0;
 }
+
+/* video section */
+.video {
+  margin-top: 3.125rem;
+  display: flex;
+  justify-content: center;
+}
+
+.video iframe {
+  max-width: 35rem;
+  width: 100%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 12.5rem;
+  margin-top: 3.125rem;
+}
+
+.form form {
+  max-width: 17.1875rem;
+  width: 100%;
+  padding: 0.3125rem;
+}
+
+.form p {
+  margin-bottom: 1.25rem;
+  word-wrap: break-word;
+}
+
+form input[type='email'] {
+  outline: none;
+  padding: 0.75rem 0.625rem;
+  width: 100%;
+  border: 1px solid rgba(153, 153, 153, 0.7);
+  outline: none;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.03);
+  transition: all 0.4s ease-in-out;
+}
+
+.form input[type='submit'] {
+  border: none;
+  height: 2.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 0.3125rem;
+  font-size: 0.9375rem;
+  line-height: 1rem;
+  font-weight: 600;
+  transition: background-color 0.1s ease-in;
+  cursor: pointer;
+  margin-top: 1.25rem;
+}
+
+.form input[type='submit']:hover {
+  background: #f1c40f;
+}
+
+footer {
+  background: #f3f3f3;
+  padding: 0.9375rem 0rem;
+  text-align: center;
+  color: #a0a1a7;
+  margin-top: 3.125rem;
+}
