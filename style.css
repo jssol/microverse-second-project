@@ -131,7 +131,6 @@ body {
   border-radius: 4px;
   font-size: 1rem;
   text-align: center;
-  justify-text: center;
   margin-top: 10px;
   font-weight: 700;
 }
@@ -147,7 +146,7 @@ body {
 
 #features {
   position: relative;
-  margin: 4rem 45rem 2rem 45rem;
+  margin: 3rem 45rem 2rem 45rem;
   z-index: -1000;
   display: flex;
   flex-direction: column;
